@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  background: #eee;
+  min-height: 100vh;
+  padding: 0px 20px;
+}
+
+.app-header {
+  min-height: 10vh;
+}
+
+.filter {
+  max-width: 700px;
+  min-height: auto;
+  margin: 0 ;
+  background: white;
+  padding: 10px 10px;
+  border-radius: 15px;
+}
+
+.filter h3 {
+  text-align: left;
+}
+
+.filter-para {
+  width: 80%;
+  margin: 0 auto;
+  padding: 5px;
+  border-bottom: 1px solid black;
+}
+
+.btn-view {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  height: auto;
+  padding-top: 10px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background: rgb(83, 255, 83);
+  font-weight: 600;
+}
+
+.btn {
+  margin: 10px 0px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: rgb(83, 255, 83);
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+.btn-links-tf {
+  margin: 10px 0px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: rgb(83, 255, 83);
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+.btn-links-tf:hover{
+  cursor: pointer;
+  background: rgb(0, 189, 0);
+}
+
+.btn-links:hover, .btn:hover {
+  cursor: pointer;
+  background: rgb(0, 189, 0);
+}
+
+.program {
+  max-width: 700px;
+  height: auto;
+  margin: 20px auto;
+  background: white;
+  border-radius: 15px;
+  padding: 20px 10px;
+}
+
+.prog-img {
+  width: 90%;
+  height: 250px;
+  background: #000;
+}
+
+.left {
+  padding: 20px 20px;
+  text-align: left;
+  line-height: 2rem;
+}
+
+.left p {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  .view {
+    display: flex;
+    flex-direction: column; 
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .view {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+  }
+
+  .filter {
+    height: fit-content;
+  }
+
+  .program {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .view {
+    display: grid;
+    grid-template-columns: 24% 74%;
+  }
+
+  .program-container {
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    justify-content: space-between;
+  }
+}
+
