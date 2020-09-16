@@ -134,12 +134,12 @@
 @media screen and (min-width: 1024px) {
   .view {
     display: grid;
-    grid-template-columns: 24% 74%;
+    grid-template-columns: 20% 78%;
   }
 
   .program-container {
     display: grid;
-    grid-template-columns: 31% 31% 31%;
+    grid-template-columns: 24% 24% 24% 24%;
     justify-content: space-between;
   }
 }
